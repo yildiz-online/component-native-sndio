@@ -1,0 +1,14 @@
+prefix=/home/moussa/dev/projects/component-native-alsa/src/main/scripts/linux64/workdir/release
+exec_prefix=/home/moussa/dev/projects/component-native-alsa/src/main/scripts/linux64/workdir/release
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: alsa
+Description: Advanced Linux Sound Architecture (ALSA) - Library
+Version: 1.1.5
+Requires: 
+Libs: -L${libdir} -lasound
+Libs.private: -lm -ldl -lpthread -lrt
+# -I${includedir}/alsa below is just for backward compatibility
+# (it was set so mistakely in the older version)
+Cflags: -I${includedir} -I${includedir}/alsa
