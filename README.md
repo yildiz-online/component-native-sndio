@@ -17,7 +17,7 @@ To build this module, you will need the latest JDK, Maven 3, cmake and a c++ com
 ## Coding Style and other information
 
 Project website:
-http://www.yildiz-games.be
+http://engine.yildiz-games.be
 
 Issue tracker:
 https://yildiz.atlassian.net
