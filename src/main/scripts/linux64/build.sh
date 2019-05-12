@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 cp -R ../../c++/ workdir
 mkdir -p ../../../../target/classes/linux64/
 
@@ -18,4 +20,4 @@ cd ..
 rm -r alsa
 rm -r workdir
 
-return $r1
+exit $r1
