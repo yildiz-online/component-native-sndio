@@ -12,7 +12,7 @@ http://www.sndio.org
 
 ## Requirements
 
-To build this module, you will need the latest JDK, Maven 3, cmake and a c++ compiler.
+To build this module, you will need the latest Java JDK, Maven 3, cmake and a c++ compiler.
 
 ## Coding Style and other information
 
